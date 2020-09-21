@@ -1,0 +1,362 @@
+{
+  "users": [
+    {
+      "namaLengkap": "Admin",
+      "username": "admin",
+      "password": "1234",
+      "email": "admin@gmail.com",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "namaLengkap": "Miyuki Hirano",
+      "username": "miyuki",
+      "password": "1234",
+      "email": "miyuki@gmail.com",
+      "role": "admin",
+      "id": 3
+    },
+    {
+      "namaLengkap": "Bayu Darmawan",
+      "username": "bayu",
+      "password": "1234",
+      "email": "darmawanbayu1@gmail.com",
+      "role": "user",
+      "id": 4,
+      "photo": "https://hmp.me/dcta"
+    },
+    {
+      "namaLengkap": "Koyuki Hirano",
+      "username": "koyuki",
+      "password": "1234",
+      "email": "koyuki@gmail.com",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "namaLengkap": "bayu darmawan",
+      "username": "bayudar",
+      "password": "1234567a",
+      "email": "google@gmail.com",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "namaLengkap": "Bayu Test",
+      "username": "testingUser",
+      "password": "12341234",
+      "email": "testing@gmail.com",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "namaLengkap": "bayu darmawan2",
+      "username": "lagilagibayu",
+      "password": "12341234a",
+      "email": "lagilagi@gmail.com",
+      "role": "user",
+      "id": 8
+    },
+    {
+      "namaLengkap": "DINODINO",
+      "username": "dino123",
+      "password": "12341234",
+      "email": "miyuki@gmail.com",
+      "role": "user",
+      "id": 9
+    },
+    {
+      "namaLengkap": "DINO JAGOANKU",
+      "username": "Bayu Darmawan",
+      "password": "bayudarmawan123",
+      "email": "miyuki@gmail.com",
+      "role": "user",
+      "id": 10
+    },
+    {
+      "namaLengkap": "testing",
+      "username": "testingdong",
+      "password": "bayudarmawan",
+      "email": "bisadonganjg@gmail.com",
+      "role": "user",
+      "id": 11
+    },
+    {
+      "namaLengkap": "Bayu Darmawan",
+      "username": "bayubayu",
+      "password": "Bayudarmawan1!",
+      "email": "gorillajajan@gmail.com",
+      "role": "user",
+      "id": 12
+    }
+  ],
+  "products": [
+    {
+      "namatrip": "ke pulau seribu",
+      "gambar": "https://assets-a1.kompasiana.com/items/album/2019/04/14/liburan-3-5cb2c933a8bc151cd14d0962.jpg",
+      "tanggalmulai": 1599955200000,
+      "tanggalberakhir": 1600041600000,
+      "harga": "999000",
+      "deskripsi": "ayoo ke pulau seribu",
+      "id": 5
+    },
+    {
+      "namatrip": "DisneyLand",
+      "gambar": "https://hmp.me/dcko",
+      "tanggalmulai": 1600560000000,
+      "tanggalberakhir": 1601078400000,
+      "harga": "500000",
+      "ticket": 819,
+      "deskripsi": "DISNEYLAND JAPAN",
+      "id": 6
+    },
+    {
+      "namatrip": "Universal Studio Japan",
+      "gambar": "https://hmp.me/dckp",
+      "tanggalmulai": 1601164800000,
+      "tanggalberakhir": 1601424000000,
+      "harga": "900000",
+      "ticket": 862,
+      "deskripsi": "Universal Studio Japan",
+      "id": 7
+    },
+    {
+      "namatrip": "Mario Kart Tokyo",
+      "gambar": "https://hmp.me/dcs6",
+      "tanggalmulai": 1602979200000,
+      "tanggalberakhir": 1603584000000,
+      "harga": "1000000",
+      "deskripsi": "One of the best ways to scoop reduced-rate tickets for Mario Kart in Tokyo is by booking on Klook or Voyagin—discounts range around 30 percent. ",
+      "id": 8,
+      "ticket": -7
+    },
+    {
+      "namatrip": "JR PASS SHINKANSEN 7 DAYS",
+      "gambar": "https://hmp.me/dcs7",
+      "tanggalmulai": 1602633600000,
+      "tanggalberakhir": 1604102400000,
+      "harga": "3600000",
+      "deskripsi": "he pass is valid on almost all trains operated on the nationwide network of JR (Japan Railways), ",
+      "id": 9,
+      "ticket": -8
+    },
+    {
+      "namatrip": "1 day FUJI TRIP WITH BUS",
+      "gambar": "https://hmp.me/dcs8",
+      "tanggalmulai": 1606780800000,
+      "tanggalberakhir": 1609372800000,
+      "harga": "1500000",
+      "deskripsi": "One Day Trip to Fuji, from TOKYO (SHIBUYA)",
+      "id": 10,
+      "ticket": null
+    },
+    {
+      "namatrip": "Tokyo Resort Skii",
+      "gambar": "https://hmp.me/dct3",
+      "tanggalmulai": 1605916800000,
+      "tanggalberakhir": 1609372800000,
+      "harga": "2000000",
+      "deskripsi": "Best Skii Resort in Japan! Near from TOKYO!, just take a bus from shinjuku station or take a train from shinjuku station",
+      "id": 11
+    }
+  ],
+  "carts": [],
+  "transactions": [
+    {
+      "status": "Completed",
+      "userId": 3,
+      "tanggalPembayaran": 1600431435676,
+      "metode": "upload",
+      "buktipembayaran": "https://hmp.me/dcko",
+      "id": 12
+    },
+    {
+      "status": "Completed",
+      "userId": 3,
+      "tanggalPembayaran": 1600431627434,
+      "metode": "upload",
+      "buktipembayaran": "https://hmp.me/dcko",
+      "id": 13
+    },
+    {
+      "status": "Completed",
+      "userId": 3,
+      "tanggalPembayaran": 1600438784433,
+      "metode": "upload",
+      "buktipembayaran": "https://hmp.me/dcko",
+      "id": 14
+    },
+    {
+      "status": "Completed",
+      "userId": 4,
+      "tanggalPembayaran": 1600607942678,
+      "ccName": "Master Card",
+      "metode": "cc",
+      "buktipembayaran": "https://hmp.me/dcrf",
+      "id": 39
+    },
+    {
+      "status": "WaitingAdmin",
+      "userId": 4,
+      "tanggalPembayaran": 1600675954837,
+      "metode": "upload",
+      "buktipembayaran": "https://hmp.me/dcux",
+      "id": 40
+    },
+    {
+      "status": "WaitingAdmin",
+      "userId": 4,
+      "tanggalPembayaran": 1600676181909,
+      "metode": "upload",
+      "buktipembayaran": "https://hmp.me/dcux",
+      "id": 41
+    },
+    {
+      "status": "WaitingAdmin",
+      "userId": 4,
+      "tanggalPembayaran": 1600676304437,
+      "metode": "upload",
+      "buktipembayaran": "https://hmp.me/dcux",
+      "id": 42
+    },
+    {
+      "status": "WaitingAdmin",
+      "userId": 4,
+      "tanggalPembayaran": 1600683198765,
+      "metode": "upload",
+      "buktipembayaran": "https://hmp.me/dcux",
+      "id": 43
+    },
+    {
+      "status": "WaitingAdmin",
+      "userId": 4,
+      "tanggalPembayaran": 1600683705179,
+      "metode": "upload",
+      "buktipembayaran": "https://hmp.me/dcux",
+      "id": 44
+    },
+    {
+      "status": "WaitingAdmin",
+      "userId": 4,
+      "tanggalPembayaran": 1600684957502,
+      "metode": "upload",
+      "buktipembayaran": "https://hmp.me/dcux",
+      "id": 45
+    },
+    {
+      "status": "WaitingAdmin",
+      "userId": 4,
+      "tanggalPembayaran": 1600685127004,
+      "metode": "upload",
+      "buktipembayaran": "https://hmp.me/dcux",
+      "id": 46
+    }
+  ],
+  "transactionsdetails": [
+    {
+      "transactionId": 12,
+      "productId": 6,
+      "price": 500000,
+      "qty": 1,
+      "id": 19
+    },
+    {
+      "transactionId": 13,
+      "productId": 7,
+      "price": 900000,
+      "qty": 1,
+      "id": 20
+    },
+    {
+      "transactionId": 14,
+      "productId": 6,
+      "price": 500000,
+      "qty": 1,
+      "id": 21
+    },
+    {
+      "transactionId": 39,
+      "productId": 6,
+      "price": 500000,
+      "qty": "5",
+      "id": 47
+    },
+    {
+      "transactionId": 40,
+      "productId": 8,
+      "price": 1000000,
+      "qty": "1",
+      "id": 48
+    },
+    {
+      "transactionId": 41,
+      "productId": 9,
+      "price": 3600000,
+      "qty": "2",
+      "id": 49
+    },
+    {
+      "transactionId": 42,
+      "productId": 9,
+      "price": 3600000,
+      "qty": "1",
+      "id": 50
+    },
+    {
+      "transactionId": 43,
+      "productId": 7,
+      "price": 900000,
+      "qty": "2",
+      "id": 51
+    },
+    {
+      "transactionId": 43,
+      "productId": 9,
+      "price": 3600000,
+      "qty": "5",
+      "id": 52
+    },
+    {
+      "transactionId": 44,
+      "productId": 7,
+      "price": 900000,
+      "qty": "2",
+      "id": 53
+    },
+    {
+      "transactionId": 45,
+      "productId": 7,
+      "price": 900000,
+      "qty": "2",
+      "id": 54
+    },
+    {
+      "transactionId": 45,
+      "productId": 10,
+      "price": 1500000,
+      "qty": "5",
+      "id": 55
+    },
+    {
+      "transactionId": 46,
+      "productId": 8,
+      "price": 1000000,
+      "qty": 7,
+      "id": 56
+    }
+  ],
+  "detailTransactions": [
+    {
+      "status": "Completed",
+      "userId": 4,
+      "tanggalPembayaran": 1600431435676,
+      "ccName": "VISA",
+      "buktipembayaran": "https://hmp.me/dcko",
+      "namatrip": "BISA DONG",
+      "gambar": "https://hmp.me/dcko",
+      "qty": 2,
+      "harga": 500,
+      "subtotal": 1000
+    }
+  ]
+}
