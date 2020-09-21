@@ -98,6 +98,7 @@ class History extends Component {
         }).catch((err)=>{
           console.log(err)
         })
+        console.log('github jancok')
 
 
 
