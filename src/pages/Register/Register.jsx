@@ -112,32 +112,9 @@ const required = value => {
 
 
 class Register extends Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.handleRegister = this.handleRegister.bind(this);
-    //     this.onChangeUsername = this.onChangeUsername.bind(this);
-    //     this.onChangeEmail = this.onChangeEmail.bind(this);
-    //     this.onChangePassword = this.onChangePassword.bind(this);
-    //     this.onChangeNamaLengkap = this.onChangeNamaLengkap.bind(this)
 
-    //     this.state = {
-    //       namaLengkap:'',
-    //         username: "",
-    //       email: "",
-    //       password: "",
-    //       successful: false,
-    //       message: "",
-    //       isRegister:false
-    //     };
-    //   }
-    
     state = { 
-        // username:createRef(),
-        // password:createRef(),
-        // namaLengkap:createRef(),
-        // email:createRef(),
-        // alert:'',
-        // datauser:[],
+
         namaLengkap:'',
         username: "",
         email: "",
@@ -214,34 +191,7 @@ class Register extends Component {
         });
     
         this.form.validateAll();
-    
-        // if (this.checkBtn.context._errors.length === 0) {
-        //   AuthService.register(
-        //     this.state.username,
-        //     this.state.email,
-        //     this.state.password
-        //   ).then(
-        //     response => {
-        //       this.setState({
-        //         message: response.data.message,
-        //         successful: true
-        //       });
-        //     },
-        //     error => {
-        //       const resMessage =
-        //         (error.response &&
-        //           error.response.data &&
-        //           error.response.data.message) ||
-        //         error.message ||
-        //         error.toString();
-    
-        //       this.setState({
-        //         successful: false,
-        //         message: resMessage
-        //       });
-        //     }
-        //   );
-        // }
+
       }
 
       Register=(e,namaLengkap,username,password,email)=>{
@@ -341,61 +291,7 @@ class Register extends Component {
           console.log(this.state.email)
       }
 
-    
-  //    OnRegisterClick=()=>{
-  //       const {username,password,namaLengkap,email} = this.state
-  //      var namaLengkap1 = namaLengkap.current.value
-  //      var username1 = username.current.value
-  //      var password1 = password.current.value
-  //      var email1 = email.current.value
-  //      // console.log(namaLengkap1,username1,password1,email1)
-  //      var obj ={namaLengkap:namaLengkap1,username:username1,password:password1,email:email1}
-  //      console.log(obj)
-  //       if(this.state.email.current.value)
-  //      Axios.get(`${API_URL}/users?username=${username1}`)
-  //      .then((res1)=>{
-  //          if(res1.data.length){
-  //              var username1 = username.current.value
-  //              console.log(res1.data[0].username)
-  //              console.log(username1)     
-  //                 console.log('username Sudah terdaftar')
-  //                 var namaLengkapRef=this.state.namaLengkap
-  //                 namaLengkapRef.current.value=''
-  //                 var usernameRef=this.state.username
-  //                 usernameRef.current.value=''
-  //                 var passwordRef=this.state.password
-  //                 passwordRef.current.value=''
-  //                 var emailRef=this.state.email
-  //                 emailRef.current.value=''
-  //                 this.setState({alert:'Username sudah Terdaftar'})
-  //          }else {
-               
-  //                   Axios.post(`${API_URL}/users`,obj)
-  //                   .then((res)=>{
-  //                        var namaLengkapRef=this.state.namaLengkap
-  //                        namaLengkapRef.current.value=''
-  //                        var usernameRef=this.state.username
-  //                        usernameRef.current.value=''
-  //                        var passwordRef=this.state.password
-  //                        passwordRef.current.value=''
-  //                        var emailRef=this.state.email
-  //                        emailRef.current.value=''
-  //                          this.setState({alert:'Register Berhasil'})
-                           
-     
-  //                   }).catch((err)=>{
-  //                       console.log(err)
-  //                   })
-  //                console.log('berhasil Register')
-
-  //                this.setState({})
-
-  //          }
-  //      }).catch((err)=>{
-  //          console.log(err)
-  //      })
-
-  //  }
+ 
     render() { 
         const {classes} = this.props
         console.log(this.props.Auth)
@@ -426,38 +322,6 @@ class Register extends Component {
                             </Link>
                             
                         </div>
-
-                        {/* <div className='mt-3 box-username-2 px-3  '>
-                            <TextField className={classes.root} inputRef={this.state.namaLengkap} label="Nama Lengkap" fullWidth="true" variant="outlined" size='small' ></TextField>
-                        </div>
-                        <div className='mt-3 box-username-2 px-3  '>
-                            <TextField className={classes.root} inputRef={this.state.username} label="Username" fullWidth="true" variant="outlined" size='small' ></TextField>
-                        </div>
-                        <div className='mt-3 box-username-2 px-3 box-username-2'>
-                            <TextField className={classes.root} inputRef={this.state.password} label="Password" fullWidth="true" variant="outlined" size='small' type="password"></TextField>
-                        </div>
-                        <div className='mt-3 box-username-2 px-3 box-username-2'>
-                            <TextField className={classes.root} inputRef={this.state.email} label="Email" fullWidth="true" variant="outlined" size='small' type="Email"></TextField>
-                        </div>
-                        <div className='mt-3 mb-2'>
-                                {
-                                    //  this.state.username?
-                                    this.state.alert?
-
-                                    <Alert color="danger">
-                                    {this.state.alert}<span classname='float-right alert' onClick={()=>this.setState({alert:''})}> &nbsp; x</span>
-                                    </Alert>
-                                   
-                                    :
-                                   null
-                                }
-                        </div> */}
-                           
-    
-                            {/* <div className='align-self-center login-btn'>
-                                <button onClick={this.onLoginClick} className='px-3 py-2 rounded btn-login login ' onClick={this.OnRegisterClick}>Register</button>
-
-                            </div> */}
 
             <Form onSubmit={this.handleRegister}
             ref={c => {
@@ -517,6 +381,7 @@ class Register extends Component {
                 <div className="form-group">
                   <button className="btn btn-primary btn-block" onClick={this.Register}>Sign Up</button>
                 </div>
+                
               </div>
             )}
 

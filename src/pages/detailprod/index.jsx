@@ -110,10 +110,8 @@ class DetailProd extends Component {
                                 ticket:parseInt((res6.data[0].ticket - this.state.qty.current.value))
                             })
                             .then((res5)=>{
-
                                 this.setState({products:res5.data})
                                 // this.props.AddcartAction(res5.data)
-
                             }).catch((err)=>{
                                 console.log(err)
                             })

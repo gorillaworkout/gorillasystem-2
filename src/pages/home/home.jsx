@@ -25,25 +25,22 @@ class Home extends Component {
             <div>
                 <Header/>
                 <div
-                    style={{
-                    width: "100%",
-                    height: '90vh'
-                }}>
+                    style={{width: "100%",height: '90vh'}}>
                     {/* <img src={Homescreen} width='100%' height='100%'></img> */}
                     <Carousel autoPlay showStatus={false} showIndicators={false} showThumbs={false} infiniteLoop={true}>
-                <div className="background">
-                    <img src={Homescreen2} width="100%" height="500px"/>
-                    {/* <p className="legend">Legend 1</p> */}
-                </div>
-                <div className="background">
-                    <img src={Homescreen3} width="100%" height="500px"/>
-                    {/* <p className="legend">Legend 2</p> */}
-                </div>
-                <div className="background" >
-                    <img src={Homescreen4} width="100%" height="500px"/>
-                    {/* <p className="legend">Legend 3</p> */}
-                </div>
-                </Carousel>
+                    <div className="background">
+                        <img src={Homescreen2} width="100%" height="500px"/>
+                        {/* <p className="legend">Legend 1</p> */}
+                    </div>
+                    <div className="background">
+                        <img src={Homescreen3} width="100%" height="500px"/>
+                        {/* <p className="legend">Legend 2</p> */}
+                    </div>
+                    <div className="background" >
+                        <img src={Homescreen4} width="100%" height="500px"/>
+                        {/* <p className="legend">Legend 3</p> */}
+                    </div>
+                    </Carousel>
                 </div>
                 <div
                     style={{
